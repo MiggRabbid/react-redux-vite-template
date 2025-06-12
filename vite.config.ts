@@ -39,6 +39,10 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': '/src',
+      '@hooks': '/src/app/hooks',
+      '@models': '/src/app/models',
+      '@selectors': '/src/app/selectors',
+      '@store': '/src/app/store',
     },
   },
   css: {
