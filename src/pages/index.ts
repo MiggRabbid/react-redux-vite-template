@@ -1,3 +1,5 @@
 import MainPage from './MainPage';
+import NotFoundPage from './NotFoundPage';
+import ErrorBoundary from './ErrorBoundary';
 
-export { MainPage };
+export { MainPage, NotFoundPage, ErrorBoundary };
