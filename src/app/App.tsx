@@ -1,13 +1,13 @@
-import { Box } from '@mui/material';
+import { RouterProvider } from 'react-router-dom';
 
 import { StoreProvider } from './providers';
+
+import AppRouter from './router/AppRouter';
 
 function App() {
   return (
     <StoreProvider>
-      <Box className="text-center text-3xl font-bold">
-        <h1>TS + React + RTK + MUI + Tailwind + Vite</h1>
-      </Box>
+      <RouterProvider router={AppRouter} />
     </StoreProvider>
   );
 }
