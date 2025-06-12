@@ -8,6 +8,7 @@ import jsxA11y from 'eslint-plugin-jsx-a11y';
 import importPlugin from 'eslint-plugin-import';
 import tseslint from 'typescript-eslint';
 import prettierConfig from './prettier.config.cjs';
+import tsconfigPaths from 'vite-tsconfig-paths'; 
 
 export default tseslint.config(
   {
@@ -55,6 +56,11 @@ export default tseslint.config(
         alias: {
           map: [
             ['@', './src'],
+            ['@hooks', './src/app/hooks'],
+            ['@models', './src/app/models'],
+            ['@router', './src/app/router'],
+            ['@selectors', './src/app/selectors'],
+            ['@store', './src/app/store'],
           ],
           extensions: ['.js', '.jsx', '.ts', '.tsx'],
         },

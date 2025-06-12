@@ -1,8 +1,8 @@
 import React from 'react';
 import { Box } from '@mui/material';
 
-import { useAppSelector } from '../../app/hooks';
-import { getGlobalField } from '../../app/selectors/global.selector';
+import { useAppSelector } from '@hooks/index';
+import { getGlobalField } from '@selectors/global.selector';
 
 const MainPage = () => {
   const title = useAppSelector(getGlobalField('title'));

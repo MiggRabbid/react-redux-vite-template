@@ -1,5 +1,5 @@
-import type { RootState } from '../store';
-import type { IGlobalState } from '../store/slices/global/global.types';
+import type { RootState } from '@store/index';
+import type { IGlobalState } from '@store/slices/global/global.types';
 
 /*
  * Global slice

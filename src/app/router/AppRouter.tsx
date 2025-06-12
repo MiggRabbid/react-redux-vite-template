@@ -7,8 +7,8 @@ import {
 
 import routes from './routes';
 
-import { MainPage, ErrorBoundary, NotFoundPage } from '../../pages';
-import { AppLayout } from '../../layouts';
+import { MainPage, ErrorBoundary, NotFoundPage } from '@/pages';
+import { AppLayout } from '@/layouts';
 
 const AppRouter = createBrowserRouter(
   createRoutesFromElements(

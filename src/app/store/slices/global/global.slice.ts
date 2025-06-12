@@ -1,8 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
+import type { PayloadAction } from '@reduxjs/toolkit';
 
 import { initialGlobalState } from './global.config';
 
-import type { PayloadAction } from '@reduxjs/toolkit';
 import type { IGlobalState } from './global.types';
 
 export const globalSlice = createSlice({
