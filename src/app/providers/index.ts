@@ -1,3 +1,4 @@
 import { StoreProvider } from './StoreProvider';
+import { MuiThemeProvider } from './MuiThemeProvider';
 
-export { StoreProvider };
+export { StoreProvider, MuiThemeProvider };
