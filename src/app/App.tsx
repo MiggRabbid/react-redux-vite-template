@@ -1,10 +1,14 @@
 import { Box } from '@mui/material';
 
+import { StoreProvider } from './providers';
+
 function App() {
   return (
-    <Box className="text-center text-3xl font-bold">
-      <h1>Vite + React + TS + MUI + Tailwind</h1>
-    </Box>
+    <StoreProvider>
+      <Box className="text-center text-3xl font-bold">
+        <h1>TS + React + RTK + MUI + Tailwind + Vite</h1>
+      </Box>
+    </StoreProvider>
   );
 }
 
