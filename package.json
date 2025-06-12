@@ -1,5 +1,5 @@
 {
-  "name": "react-vite-template",
+  "name": "react-rtk-vite-template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,11 +17,14 @@
     "@mui/icons-material": "^5.15.21",
     "@mui/material": "^5.16.7",
     "@mui/styles": "^6.1.4",
+    "@reduxjs/toolkit": "^2.8.2",
     "@tailwindcss/postcss": "^4.1.7",
     "postcss": "^8.5.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
     "react-router-dom": "^6.24.0",
+    "redux": "^5.0.1",
     "tailwindcss": "^4.1.7"
   },
   "devDependencies": {
