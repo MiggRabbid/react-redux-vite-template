@@ -41,6 +41,7 @@ export default defineConfig({
       '@': '/src',
       '@hooks': '/src/app/hooks',
       '@models': '/src/app/models',
+      '@router': '/src/app/router',
       '@selectors': '/src/app/selectors',
       '@store': '/src/app/store',
     },
