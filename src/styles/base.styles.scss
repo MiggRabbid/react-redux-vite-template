@@ -2,9 +2,14 @@
 
 body {
   @extend %font-bold-22;
-  width: 100%;
   min-height: 100dvh;
   position: relative;
+}
+
+#root {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
 }
 
 *,
