@@ -1,5 +1,9 @@
 i:
-	rm -rf node_modules
+	npm install
+
+ir:
+	rm -rf node_modules package-lock.json
+	npm cache clean --force
 	npm install
 
 l:
