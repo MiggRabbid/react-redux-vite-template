@@ -24,7 +24,7 @@ export const globalSlice = createSlice({
     /*
      * Очищаем состояние
      */
-    clearScenarioEditorState: () => {
+    clearGlobalState: () => {
       return { ...initialGlobalState };
     },
   },
